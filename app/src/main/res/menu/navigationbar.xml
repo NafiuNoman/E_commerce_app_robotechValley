@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+
+
+    <item android:title=" USER ">
+
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_course"
+                android:title="COURSES"/>
+
+            <item
+                android:icon="@drawable/ic_tutorial"
+                android:title="TUTORIALS"/>
+
+            <item
+                android:icon="@drawable/ic_robotic_project"
+                android:title="ROBOTICS PROJECT"/>
+
+            <item
+                android:icon="@drawable/ic_blog"
+                android:title="BLOG"/>
+
+            <item
+                android:icon="@drawable/ic_ambassador"
+                android:title="CAMPUS AMBASSADOR"/>
+
+
+            <item
+                android:icon="@drawable/ic_team"
+                android:title="OUR TEAM"/>
+
+
+            <item
+                android:icon="@drawable/ic_cart"
+                android:title="CART"/>
+
+            <item
+                android:icon="@drawable/ic_contact"
+                android:title="CONTACT US"/>
+
+        </menu>
+    </item>
+
+</menu>
