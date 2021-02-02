@@ -1,11 +1,18 @@
 <resources>
 
 
-
     <string name="app_name">Robo Tech Valley</string>
     <string name="open">open</string>
     <string name="close">close</string>
 
+    <string name="Description">This 2WD Smart Soccer Robot Chassis Kit  is easy to assemble and use robot chassis platform.
+        It provides you with everything you need to give your Soccer Robot  a fast two wheel drive platform with plenty of room for expansion
+        to add various sensors and controllers (such as Arduino).
+        All you need to do is supply a basic motor driver and power and you’ll be ready to drive.
+        This 2WD Smart Soccer Robot Chassis Kit  is easy to assemble and use robot chassis platform.
+        It provides you with everything you need to give your Soccer Robot  a fast two wheel drive platform with plenty of room for expansion to add various sensors and controllers (such as Arduino).
+        All you need to do is supply a basic motor driver and power and you’ll be ready to drive
+    </string>
 
 
 </resources>
