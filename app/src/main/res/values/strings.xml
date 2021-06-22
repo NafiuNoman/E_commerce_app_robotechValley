@@ -13,6 +13,14 @@
         It provides you with everything you need to give your Soccer Robot  a fast two wheel drive platform with plenty of room for expansion to add various sensors and controllers (such as Arduino).
         All you need to do is supply a basic motor driver and power and you’ll be ready to drive
     </string>
+    <string name="TextPassword">Your Password</string>
+    <string name="TextEmail">Email</string>
+    <string name="TextForgetPassword">ForgetPassword</string>
+    <string name="TextLogin">Login</string>
+    <string name="HintPassword">Password</string>
+    <string name="HintEmail">Email</string>
+    <string name="TextRegister">Register</string>
+    <string name="Hint_full_name">Full Name</string>
 
 
 </resources>

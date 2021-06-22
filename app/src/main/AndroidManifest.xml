@@ -3,6 +3,7 @@
     package="com.example.robotechvalley">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,15 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CartAdd"></activity>
-        <activity android:name=".ProductDeatails" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".views.adminLogIn"></activity>
+        <activity android:name=".views.register" />
+        <activity android:name=".views.logIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".views.adimn" />
+        <activity android:name=".views.CartAdd" />
+        <activity android:name=".views.ProductDeatails" />
+        <activity android:name=".views.MainActivity"></activity>
     </application>
 
 </manifest>

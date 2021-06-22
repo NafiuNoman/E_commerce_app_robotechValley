@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProductDeatails">
+    tools:context=".views.ProductDeatails">
 
     <ImageView
         android:id="@+id/IdProductImage"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/IdProductImage" />
 
     <TextView
-        android:id="@+id/IdProductPrice"
+        android:id="@+id/IdProductDetailsPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
@@ -50,9 +50,9 @@
         android:gravity="center"
         android:text="Smart soccer robot"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/IdProductPrice"
-        app:layout_constraintStart_toEndOf="@+id/IdProductPrice"
-        app:layout_constraintTop_toTopOf="@+id/IdProductPrice" />
+        app:layout_constraintBottom_toBottomOf="@+id/IdProductDetailsPrice"
+        app:layout_constraintStart_toEndOf="@+id/IdProductDetailsPrice"
+        app:layout_constraintTop_toTopOf="@+id/IdProductDetailsPrice" />
 
     <TextView
         android:id="@+id/textView4"
@@ -76,9 +76,10 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/IdProductDescription"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
+                android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:layout_marginLeft="2dp"
                 android:text="@string/Description"
@@ -105,7 +106,7 @@
         android:textColor="#fff"
 
         app:layout_constraintEnd_toStartOf="@+id/ratingBar"
-        app:layout_constraintTop_toBottomOf="@+id/IdProductPrice" />
+        app:layout_constraintTop_toBottomOf="@+id/IdProductDetailsPrice" />
 
     <RatingBar
         android:id="@+id/ratingBar"

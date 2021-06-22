@@ -1,4 +1,4 @@
-package com.example.robotechvalley;
+package com.example.robotechvalley.adapters;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -9,10 +9,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.ConstraintSet;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.zip.Inflater;
+import com.example.robotechvalley.views.ProductDeatails;
+import com.example.robotechvalley.R;
 
 public class myRecyAdapter extends RecyclerView.Adapter<myRecyAdapter.MyViewHolder> {
     @NonNull
@@ -33,7 +33,7 @@ public class myRecyAdapter extends RecyclerView.Adapter<myRecyAdapter.MyViewHold
         holder.row.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(holder.row.getContext(),ProductDeatails.class);
+                Intent intent = new Intent(holder.row.getContext(), ProductDeatails.class);
 
                 holder.row.getContext().startActivity(intent);
             }
@@ -54,9 +54,9 @@ public class myRecyAdapter extends RecyclerView.Adapter<myRecyAdapter.MyViewHold
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            productImage = itemView.findViewById(R.id.IdProductImage);
-            productName = itemView.findViewById(R.id.IdProductName);
-            productPrice = itemView.findViewById(R.id.IdProductPrice);
+            productImage = itemView.findViewById(R.id.IdRowProductImage);
+            productName = itemView.findViewById(R.id.IdRowProductName);
+            productPrice = itemView.findViewById(R.id.IdRowProductPrice);
             row = itemView.findViewById(R.id.IdRow);
 
 
